@@ -7,8 +7,8 @@ network:
   renderer: networkd
   ethernets:
 	{{$netdev.Device}}:
-  		addresses:
-    			- {{$netdev.Ipaddr}}/{{$netdev.Netmask}}
+		addresses:
+			- {{$netdev.Ipaddr}}/{{$netdev.Netmask}}
 	{{ if $netdev.MTU -}}
 		mtu: {{$netdev.MTU}}
 	{{- end}}
