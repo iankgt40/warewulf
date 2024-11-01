@@ -18,7 +18,7 @@ network:
   	addresses:
     	- {{$netdev.Ipaddr}}/{{$netdev.Netmask}}
 	{{ if $netdev.MTU -}}
-	mtu: {{$netdev.Mtu}}
+	mtu: {{$netdev.MTU}}
 	{{- end}}
 #  	routes:
 #    	- to: 10.10.10.0/{{$netdev.Netmask}}
