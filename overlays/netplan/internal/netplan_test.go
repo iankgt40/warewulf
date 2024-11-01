@@ -57,8 +57,7 @@ network:
   ethernets:
          wwnet0:
          addresses:
-         - 192.168.3.21/255.255.255.0
-         
+         - 192.168.3.21/255.255.255.0      
 backupFile: true
 writeFile: true
 Filename: secondary
