@@ -20,7 +20,4 @@ network:
 	{{ if $netdev.MTU -}}
 	mtu: {{$netdev.MTU}}
 	{{- end}}
-#  	routes:
-#    	- to: 10.10.10.0/{{$netdev.Netmask}}
-#      	via: {{$netdev.Gateway}}
 {{- end}}
