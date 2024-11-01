@@ -23,6 +23,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ### Changed
 
+- Adding Netplan NIC support for Debian/Ubuntu #1463
 - Locally defined `tr` has been dropped, templates updated to use Sprig replace.
 - Bump github.com/opencontainers/image-spec to 1.1.0
 - Bump github.com/containers/storage to 1.53.0
